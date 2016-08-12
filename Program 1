@@ -1,0 +1,19 @@
+-- PL/SQL is a programming language that is similar
+-- to ADA and PASCAL.   It let's you access ORACLE
+-- tables.  However, now we study the basics.
+
+-- Main program with variable and if-then-else
+
+
+declare
+   books  integer;
+begin
+   books := 20;
+   if books = 8820
+   then 
+       dbms_output.put_line('they are equal');
+   else
+       dbms_output.put_line('***$$$### they are not equal');
+   end if;
+end;
+/
