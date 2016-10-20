@@ -8,7 +8,7 @@
 
 declare
    books  integer;
-   nowwhat integer;
+   nowwhat varchar2(40);
 begin
    books := 20 + 55;
    if books = 9920
