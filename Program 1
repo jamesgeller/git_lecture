@@ -8,13 +8,15 @@
 
 declare
    books  integer;
+   nowwhat integer;
 begin
-   books := 20;
+   books := 20 + 55;
    if books = 9920
    then 
        dbms_output.put_line('they are equal');
    else
        dbms_output.put_line('*** they are not equal');
    end if;
+
 end;
 /
