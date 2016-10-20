@@ -10,6 +10,7 @@ declare
    books  integer;
    nowwhat varchar2(40);
 begin
+   dbms_output.put_line('another change');
    books := 20 + 55 - 2999;
    if books = 9920
    then 
