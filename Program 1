@@ -3,6 +3,7 @@
 -- tables.  However, now we study the basics.
 
 -- Main program with variable and if-then-else
+== I am now modifying this. 
 
 
 declare
@@ -13,7 +14,7 @@ begin
    then 
        dbms_output.put_line('they are equal');
    else
-       dbms_output.put_line('***$$$### they are not equal');
+       dbms_output.put_line('*** they are not equal');
    end if;
 end;
 /
